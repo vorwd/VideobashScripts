@@ -137,7 +137,7 @@ for index in $eng_audio_streams; do
 done
 
     # Run ffmpeg command to create the temporary output file
-    ffmpeg_output=$(ffmpeg -i "$input_file" -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 "${map_audio_args[@]}" "$temp_output_file" 2>&1)
+    ffmpeg_output=$(ffmpeg -hide_banner -i "$input_file" -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 "${map_audio_args[@]}" "$temp_output_file" 2>&1 | awk '!/frame=|_STATISTICS_WRITING_|_STATISTICS_TAGS|NUMBER_OF_FRAMES|NUMBER_OF_BYTES/ { print }')
 
     # Append ffmpeg output to the log file
     echo -e "\n"
@@ -176,7 +176,7 @@ done
 
       # Move the temporary output file to the final destination
       mv "$temp_output_file" "$final_output_file"
-
+      echo -e "\n"
       echo "Moved $temp_output_file to $final_output_file"
       echo -e "\n"
     else
