@@ -64,6 +64,7 @@ _What's strange about this error, is that my $map_audio_args should be excluding
 6. Outputs to the shell, the list of filtered (to-be converted) files (and those listed as excluded) and askes the user to confirm they want to continue (y/n)
 7. **Starts Loop** on filtered file list and runs the following: <br>
   7a. Initiates **mkvmerge** (snip 1) and feeds in the input_args (snip 2). <br>
+> 
     Snip 1:
   >      mkvmerge -o "$temp_output_file" "${mkvmerge_input_args[@]}" 2>&1 | grep -v "Progress:"
     Snip 2:
