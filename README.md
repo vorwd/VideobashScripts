@@ -1,29 +1,52 @@
 
 # Overview of **ffmpeg_Eng-Audio-to-ACC-2CH.sh**
-  - Applies to .mkv and .mp4 files (could be updated to action against any video file that is supposed by ffmpeg, but I only use it for these two formats)
-  - Creates a (very) verbose log file of conversion outcomes and produces a .json file of the ffprobe completed after the conversion is completed
-1. Asks the user what directory to action upon
-2. Maps all files matching the formats within that directory
-3. Creates a temp directory for the file conversion and to store the log and .json files <br>
-  3a. The temp directory is for my use-case, as I want to limit the back and forth data transfer on the network until the conversion is completed.
-4. Archives old logs and .json files that are older than 24 hours
-5. Identifies files already converted by this script by way of the -AC2 notation that gets appended to completed files <br>
-  5a. Excludes those files identified as already having this script ran against them
-6. Lists filtered (to-be converted) files (and those that are listed as excluded) and askes the user to confirm they want to continue (y/n)
-7. Loops through the filtered file list running the following: <br>
-  7a. Runs ffprobe to identify English (eng) language audio streams: <br>
->      ffprobe -show_streams -show_entries "format:stream" -v error -of json "$input_file"
-  7b. Dynamically constructs ffmpeg arguments based on ffprobe results <br>
-  7c. Runs ffmpeg to complete the conversion of eng audio streams into AC-2channel: <br>
->      ffmpeg -i "$input_file" -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 "${map_audio_args[@]}" "$temp_output_file"
-  7d. Runs ffprobe on converted file to ensure outcome as expected (this might be overkill and once confirmed the script is working as expected, can likely be removed)
->      ffprobe -show_streams -show_entries "format:stream" -v error -of json "$temp_output_file"
-  7e. Appends -AC2 to orignal filename and constructs $final_output_file <br>
-  7f. Moves $temp_output_file to $final_output_file
- >   _final_output_file="${target_directory}/${filename}-AC2.${extension}" where ${target_directory} is the original file path provided by the user during step 1_ <br>
-8. Finishs log file, sleeps for 2 seconds in case someone is watching the shell, outputs notice to the shell regarding excluded files and conversion completed (noting the log file and the ffprobe AC2.json file location)
+  - Applies to .mkv and .mp4 files (could be updated to action against any video format that is supported by **ffmpeg**, but I only use it for these two formats -- feel free to update)
+  - Creates a verbose (very/overkill) and timestamped log file of the end-to-end process and produces a timestamped .json file of the ffprobe completed after the conversion is completed
+  - Appends -AC2 to the file and preserves the orignal file as-is to allow the user to confirm success before (if they want) disposing of the original.
+  - Requires **ffmpeg** to be installed: https://github.com/FFmpeg/FFmpeg <-- don't forget to donate or contribute, if you're able (-:
+1. Asks the user what directory to action upon (or actions on the directory the script is run in, if user input is left blank)
+2. Maps all files within the **target_directory** that are matching .mkv or .mp4
+3. Creates a **temporary_directory** for the file conversion to take place and is where the log and .json files are stored <br>
+  3a. The temp directory is for my use-case, as I want to limit the back and forth data transfer on the network until the conversion is completed.  You could comment this out or remove it if your directory is local (or keep it so that the log files are stored somewhere outside of your video file folder)
+4. Archives old logs and .json files older than 24 hours
+5. Identifies and excludes files already converted by this script by way of the -AC2 notation that is appended to completed files by this script
+6. Outputs to the shell, the list of filtered (to-be converted) files (and those listed as excluded) and askes the user to confirm they want to continue (y/n)
+7. **Starts Loop** on filtered file list and runs the following: <br>
+    7a. Initiates **ffprobe** to identify English (eng) language audio streams: <br>
+    >      ffprobe -show_streams -show_entries "format:stream" -v error -of json "$input_file"
+    7b. Dynamically constructs **ffmpeg** arguments based on ffprobe results <br>
+    7c. Runs **ffmpeg** to complete the conversion of eng audio streams into AC-2channel audio (also a awk pipe to reduce the bloat in the ffmpeg output - remove this pipe if you want it all):
+    >      ffmpeg -hide_banner -i "$input_file" -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 "${map_audio_args[@]}" "$temp_output_file" 2>&1 | awk '!/frame=|_STATISTICS_WRITING_|_STATISTICS_TAGS|NUMBER_OF_FRAMES|NUMBER_OF_BYTES/ { print }'
+    7d. Runs **ffprobe** on converted file to ensure outcome as expected (this might be overkill and once confirmed the script is working as expected, can likely be removed)
+    >      ffprobe -show_streams -show_entries "format:stream" -v error -of json "$temp_output_file"
+    7e. Appends -AC2 to orignal filename and constructs $final_output_file <br>
+    7f. Moves $temp_output_file to $final_output_file
+     > _final_output_file="${target_directory}/${filename}-AC2.${extension}" where ${target_directory} is the original directory path provided by the user during step 1_ <br>
+8. Finishs log file, sleeps for 2 seconds in case someone is watching, outputs notices to the shell regarding excluded files not action and if the script completed (noting the log file and the ffprobe AC2.json file location)
 <br>
 <br>
 
 # Overview of **mkvMerge-Eng-Only.sh**
-  - Pending overview
+  - Applies to .mkv files ONLY (could be updated to action against any video format that is supported by **mkvtoolnix** -- feel free to update as you require)
+  - Creates a verbose (very/overkill) and timestamped log file of the end-to-end process and produces a timestamped .json file of the **ffprobe** completed after the multiplex is completed
+  - Appends -ENG to the file and preserves the orignal file as-is to allow the user to confirm success before (if they want) disposing of the original.
+  - Requires **mkvtoolnix** to be installed: https://mkvtoolnix.download/source.html#download <-- don't forget to donate or contribute, if you're able (-:
+1. Asks the user what directory to action upon (or actions on the directory the script is run in, if user input is left blank)
+2. Maps all files within the **target_directory** that are matching .mkv
+3. Creates a **temporary_directory** for the file conversion to take place and is where the log and .json files are stored <br>
+  3a. The temp directory is for my use-case, as I want to limit the back and forth data transfer on the network until the conversion is completed.  You could comment this out or remove it if your directory is local (or keep it so that the log files are stored somewhere outside of your video file folder)
+4. Archives old logs and .json files older than 24 hours
+5. Identifies and excludes files already converted by this script by way of the -ENG notation that is appended to completed files by this script
+6. Outputs to the shell, the list of filtered (to-be converted) files (and those listed as excluded) and askes the user to confirm they want to continue (y/n)
+7. **Starts Loop** on filtered file list and runs the following: <br>
+  7a. Initiates **mkvmerge** (snip 1) and feeds in the input_args (snip 2). <br>
+    Snip 1:
+  >      mkvmerge -o "$temp_output_file" "${mkvmerge_input_args[@]}" 2>&1 | grep -v "Progress:"
+    Snip 2:
+  >      mkvmerge_input_args=(-a eng -s eng "$input_file")
+  7b. Runs **ffprobe** on converted file to ensure outcome as expected (this might be overkill and once confirmed the script is working as expected, can likely be removed)
+  >      ffprobe -show_streams -show_entries "format:stream" -v error -of json "$temp_output_file"
+  7c. Appends -ENG to orignal filename and constructs $final_output_file <br>
+  7d. Moves $temp_output_file to $final_output_file
+   > _final_output_file="${target_directory}/${filename}-AC2.${extension}" where ${target_directory} is the original directory path provided by the user during step 1_ <br>
+8. Finishs log file, sleeps for 2 seconds in case someone is watching, outputs notices to the shell regarding excluded files not action and if the script completed (noting the log file and the ffprobe AC2.json file location)
