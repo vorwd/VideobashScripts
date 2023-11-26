@@ -1,0 +1,4505 @@
+
+
+Found files:
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E01.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E02.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E03.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E04.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E05.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E06.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E07.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E08.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E09.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E10.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E11.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E12.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E13.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E14.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E15.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E16.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E17.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E18.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E19.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E20.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E21.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E22.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E23.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E24.mkv
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E25.mkv
+
+
+
+
+Excluded files (already listed as -AC2 in filename):
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E01-AC2.mkv
+
+
+Do you want to proceed with converting these files? (y/n): 
+
+Initiating copy of input file: The King of Queens - S02E25.mkv-ORIGINAL to /home/user/.ffmpeg_tmp/ac2 -- this might take a few minutes depending on file size....
+
+
+++++ START OF LOG FOR The King of Queens - S02E01 ++++
+
+
+Input file: The King of Queens - S02E01-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E01-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:46:33.000000Z
+  Duration: 00:22:25.74, start: 0.000000, bitrate: 16721 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 95.457000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 95.457000, end 614.906000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 614.906000, end 1291.615000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1291.615000, end 1345.739000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16334376
+      DURATION        : 00:22:25.735000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.739000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 83
+      DURATION        : 00:21:53.958000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 95.457000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 95.457000, end 614.906000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 614.906000, end 1291.615000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1291.615000, end 1345.739000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16334376
+      DURATION        : 00:22:25.735000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.739000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 83
+      DURATION        : 00:21:53.958000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.739000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x556da3c0f800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2683318kB audio:115621kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098692%
+[aac @ 0x556da3c0a880] Qavg: 36453.328
+[aac @ 0x556da3c0dc40] Qavg: 36453.328
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E01-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E01-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E01-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E01.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E01-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E02 ++++
+
+
+Input file: The King of Queens - S02E02-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E02-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:47:57.000000Z
+  Duration: 00:22:25.44, start: 0.000000, bitrate: 16818 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 86.352000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 86.352000, end 711.069000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 711.069000, end 1278.232000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1278.232000, end 1345.436000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16430808
+      DURATION        : 00:22:25.432000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.436000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 82
+      DURATION        : 00:21:54.249000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 86.352000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 86.352000, end 711.069000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 711.069000, end 1278.232000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1278.232000, end 1345.436000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16430808
+      DURATION        : 00:22:25.432000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.436000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 82
+      DURATION        : 00:21:54.249000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.436000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55d8444a55c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2698552kB audio:112643kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098291%
+[aac @ 0x55d84449f640] Qavg: 42322.781
+[aac @ 0x55d8444aec40] Qavg: 42322.781
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E02-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E02-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E02-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E02.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E02-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E03 ++++
+
+
+Input file: The King of Queens - S02E03-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E03-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:49:21.000000Z
+  Duration: 00:22:20.79, start: 0.000000, bitrate: 16824 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 93.087000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 93.087000, end 600.456000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 600.456000, end 1296.408000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1296.408000, end 1340.791000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16436916
+      DURATION        : 00:22:20.785000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:20.791000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 83
+      DURATION        : 00:21:49.516000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 93.087000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 93.087000, end 600.456000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 600.456000, end 1296.408000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1296.408000, end 1340.791000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16436916
+      DURATION        : 00:22:20.785000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:20.791000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 83
+      DURATION        : 00:21:49.516000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:20.791000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55b84254f5c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2690231kB audio:113863kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.098217%
+[aac @ 0x55b842549640] Qavg: 38266.168
+[aac @ 0x55b842558c40] Qavg: 38266.168
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E03-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E03-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E03-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E03.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E03-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E04 ++++
+
+
+Input file: The King of Queens - S02E04-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E04-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:50:44.000000Z
+  Duration: 00:22:25.90, start: 0.000000, bitrate: 16773 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 189.584000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 189.584000, end 713.833000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 713.833000, end 1269.548000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1269.548000, end 1345.896000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16386660
+      DURATION        : 00:22:25.891000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.896000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:56.831000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 189.584000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 189.584000, end 713.833000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 713.833000, end 1269.548000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1269.548000, end 1345.896000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16386660
+      DURATION        : 00:22:25.891000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.896000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:56.831000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.896000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x561bedfba800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2692219kB audio:110370kB subtitle:24kB other streams:0kB global headers:1kB muxing overhead: 0.098689%
+[aac @ 0x561bedfb5880] Qavg: 43839.852
+[aac @ 0x561bedfb8c40] Qavg: 43839.852
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E04-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E04-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E04-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E04.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E04-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E05 ++++
+
+
+Input file: The King of Queens - S02E05-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E05-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:52:06.000000Z
+  Duration: 00:21:27.08, start: 0.000000, bitrate: 17092 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 127.087000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 127.087000, end 622.113000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 622.113000, end 1180.061000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1180.061000, end 1287.078000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16705711
+      DURATION        : 00:21:27.067000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:27.078000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 89
+      DURATION        : 00:19:16.430000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 127.087000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 127.087000, end 622.113000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 622.113000, end 1180.061000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1180.061000, end 1287.078000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16705711
+      DURATION        : 00:21:27.067000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:27.078000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 89
+      DURATION        : 00:19:16.430000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:27.078000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55a4e1c8c5c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2624679kB audio:104237kB subtitle:20kB other streams:0kB global headers:1kB muxing overhead: 0.096826%
+[aac @ 0x55a4e1c86640] Qavg: 45383.051
+[aac @ 0x55a4e1c95c40] Qavg: 45383.051
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E05-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E05-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E05-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E05.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E05-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E06 ++++
+
+
+Input file: The King of Queens - S02E06-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E06-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:53:29.000000Z
+  Duration: 00:22:00.85, start: 0.000000, bitrate: 16750 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 101.029000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 101.029000, end 694.719000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 694.719000, end 1267.220000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1267.220000, end 1320.845000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16363670
+      DURATION        : 00:22:00.840000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:00.845000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 77
+      DURATION        : 00:21:26.971000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 101.029000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 101.029000, end 694.719000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 694.719000, end 1267.220000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1267.220000, end 1320.845000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16363670
+      DURATION        : 00:22:00.840000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:00.845000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 77
+      DURATION        : 00:21:26.971000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:00.845000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x5648f3230800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2638402kB audio:110327kB subtitle:20kB other streams:0kB global headers:1kB muxing overhead: 0.098656%
+[aac @ 0x5648f322d300] Qavg: 42858.164
+[aac @ 0x5648f323c940] Qavg: 42858.164
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E06-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E06-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E06-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E06.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E06-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E07 ++++
+
+
+Input file: The King of Queens - S02E07-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E07-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:54:52.000000Z
+  Duration: 00:22:25.64, start: 0.000000, bitrate: 16750 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 132.898000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 132.898000, end 547.339000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 547.339000, end 1287.273000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1287.273000, end 1345.635000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16363557
+      DURATION        : 00:22:25.631000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.635000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 78
+      DURATION        : 00:21:54.536000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 132.898000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 132.898000, end 547.339000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 547.339000, end 1287.273000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1287.273000, end 1345.635000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16363557
+      DURATION        : 00:22:25.631000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.635000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 78
+      DURATION        : 00:21:54.536000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:25.635000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55c32484a800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2687904kB audio:109189kB subtitle:20kB other streams:0kB global headers:1kB muxing overhead: 0.098773%
+[aac @ 0x55c324847300] Qavg: 44436.473
+[aac @ 0x55c324856940] Qavg: 44436.473
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E07-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E07-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E07-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E07.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E07-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E08 ++++
+
+
+Input file: The King of Queens - S02E08-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E08-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:56:17.000000Z
+  Duration: 00:21:54.83, start: 0.000000, bitrate: 17125 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 492.047000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 492.047000, end 839.194000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 839.194000, end 1252.532000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1252.532000, end 1314.833000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16737996
+      DURATION        : 00:21:54.827000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:54.833000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 95
+      DURATION        : 00:20:45.777000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 492.047000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 492.047000, end 839.194000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 839.194000, end 1252.532000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1252.532000, end 1314.833000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16737996
+      DURATION        : 00:21:54.827000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:54.833000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 95
+      DURATION        : 00:20:45.777000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384007
+      DURATION        : 00:21:54.833000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55a886c1e800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2686471kB audio:106147kB subtitle:23kB other streams:0kB global headers:1kB muxing overhead: 0.096729%
+[aac @ 0x55a886c1b300] Qavg: 43029.742
+[aac @ 0x55a886c2a940] Qavg: 43029.742
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E08-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E08-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E08-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E08.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E08-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E09 ++++
+
+
+Input file: The King of Queens - S02E09-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E09-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:57:40.000000Z
+  Duration: 00:22:25.79, start: 0.000000, bitrate: 16650 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 99.227000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 99.227000, end 611.735000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 611.735000, end 1302.348000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1302.348000, end 1345.792000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16263356
+      DURATION        : 00:22:25.791000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.792000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:49.875000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 99.227000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 99.227000, end 611.735000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 611.735000, end 1302.348000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1302.348000, end 1345.792000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16263356
+      DURATION        : 00:22:25.791000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.792000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:49.875000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.792000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x560d6eabd800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2671762kB audio:116984kB subtitle:23kB other streams:0kB global headers:1kB muxing overhead: 0.099114%
+[aac @ 0x560d6eab8880] Qavg: 36581.645
+[aac @ 0x560d6eabbc40] Qavg: 36581.645
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E09-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E09-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E09-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E09.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E09-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E10 ++++
+
+
+Input file: The King of Queens - S02E10-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E10-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T04:59:05.000000Z
+  Duration: 00:22:25.57, start: 0.000000, bitrate: 16820 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 460.086000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 460.086000, end 1056.041000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 1056.041000, end 1299.016000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1299.016000, end 1345.567000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16433324
+      DURATION        : 00:22:25.562000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.567000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 93
+      DURATION        : 00:21:23.221000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 460.086000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 460.086000, end 1056.041000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 1056.041000, end 1299.016000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1299.016000, end 1345.567000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16433324
+      DURATION        : 00:22:25.562000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.567000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 93
+      DURATION        : 00:21:23.221000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.567000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x555bbe3a7800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2699226kB audio:116157kB subtitle:23kB other streams:0kB global headers:1kB muxing overhead: 0.098207%
+[aac @ 0x555bbe3a4300] Qavg: 37275.480
+[aac @ 0x555bbe3b3940] Qavg: 37275.480
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E10-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E10-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E10-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E10.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E10-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E11 ++++
+
+
+Input file: The King of Queens - S02E11-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E11-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:00:28.000000Z
+  Duration: 00:22:10.93, start: 0.000000, bitrate: 16900 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 115.448000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 115.448000, end 704.264000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 704.264000, end 1282.805000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1282.805000, end 1330.926000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16512956
+      DURATION        : 00:22:10.919000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:10.926000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 100
+      DURATION        : 00:21:38.478000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 115.448000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 115.448000, end 704.264000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 704.264000, end 1282.805000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1282.805000, end 1330.926000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16512956
+      DURATION        : 00:22:10.919000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:10.926000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 100
+      DURATION        : 00:21:38.478000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:10.926000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x5566b5081800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2682789kB audio:109436kB subtitle:25kB other streams:0kB global headers:1kB muxing overhead: 0.097979%
+[aac @ 0x5566b507dec0] Qavg: 43876.605
+[aac @ 0x5566b508d4c0] Qavg: 43876.605
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E11-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E11-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E11-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E11.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E11-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E12 ++++
+
+
+Input file: The King of Queens - S02E12-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E12-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:01:50.000000Z
+  Duration: 00:22:25.73, start: 0.000000, bitrate: 16825 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 105.501000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 105.501000, end 734.922000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 734.922000, end 1301.812000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1301.812000, end 1345.726000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16438429
+      DURATION        : 00:22:25.722000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.726000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 88
+      DURATION        : 00:21:39.508000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 105.501000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 105.501000, end 734.922000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 734.922000, end 1301.812000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1301.812000, end 1345.726000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16438429
+      DURATION        : 00:22:25.722000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.726000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 88
+      DURATION        : 00:21:39.508000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384006
+      DURATION        : 00:22:25.726000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x5649a9e0c800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2700385kB audio:123212kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.097887%
+[aac @ 0x5649a9e09300] Qavg: 26006.121
+[aac @ 0x5649a9e18940] Qavg: 26006.121
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E12-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E12-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E12-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E12.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E12-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E13 ++++
+
+
+Input file: The King of Queens - S02E13-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E13-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:03:14.000000Z
+  Duration: 00:22:25.64, start: 0.000000, bitrate: 16767 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 536.899000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 536.899000, end 824.985000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 824.985000, end 1290.577000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1290.577000, end 1345.635000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16379831
+      DURATION        : 00:22:25.631000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:25.635000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 87
+      DURATION        : 00:21:00.505000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 536.899000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 536.899000, end 824.985000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 824.985000, end 1290.577000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1290.577000, end 1345.635000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16379831
+      DURATION        : 00:22:25.631000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:25.635000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 87
+      DURATION        : 00:21:00.505000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384002
+      DURATION        : 00:22:25.635000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x557b8787a800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2690577kB audio:122431kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098233%
+[aac @ 0x557b87877300] Qavg: 27239.049
+[aac @ 0x557b87886940] Qavg: 27239.049
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E13-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E13-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E13-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E13.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E13-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E14 ++++
+
+
+Input file: The King of Queens - S02E14-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E14-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:04:37.000000Z
+  Duration: 00:21:25.65, start: 0.000000, bitrate: 17221 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 92.652000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 92.652000, end 616.508000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 616.508000, end 1242.496000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1242.496000, end 1285.647000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16833911
+      DURATION        : 00:21:25.639000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:21:25.647000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 97
+      DURATION        : 00:20:34.311000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 92.652000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 92.652000, end 616.508000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 616.508000, end 1242.496000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1242.496000, end 1285.647000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16833911
+      DURATION        : 00:21:25.639000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:21:25.647000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 97
+      DURATION        : 00:20:34.311000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:21:25.647000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55a2df6ba800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2641886kB audio:115906kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.095741%
+[aac @ 0x55a2df6b5880] Qavg: 32338.994
+[aac @ 0x55a2df6b8c40] Qavg: 32338.994
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E14-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E14-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E14-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E14.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E14-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E15 ++++
+
+
+Input file: The King of Queens - S02E15-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E15-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:05:59.000000Z
+  Duration: 00:20:55.79, start: 0.000000, bitrate: 17489 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 125.189000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 125.189000, end 698.259000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 698.259000, end 1138.661000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1138.661000, end 1255.786000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 17102116
+      DURATION        : 00:20:55.778000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:20:55.786000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 79
+      DURATION        : 00:20:04.365000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 125.189000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 125.189000, end 698.259000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 698.259000, end 1138.661000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1138.661000, end 1255.786000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 17102116
+      DURATION        : 00:20:55.778000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:20:55.786000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 79
+      DURATION        : 00:20:04.365000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:20:55.786000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x562dd8bcf800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2621638kB audio:112261kB subtitle:18kB other streams:0kB global headers:1kB muxing overhead: 0.094276%
+[aac @ 0x562dd8bca880] Qavg: 30713.941
+[aac @ 0x562dd8bcdc40] Qavg: 30713.941
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E15-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E15-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E15-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E15.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E15-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E16 ++++
+
+
+Input file: The King of Queens - S02E16-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E16-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:07:22.000000Z
+  Duration: 00:21:15.66, start: 0.000000, bitrate: 17268 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 110.305000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 110.305000, end 495.749000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 495.749000, end 1207.588000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1207.588000, end 1275.657000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16880950
+      DURATION        : 00:21:15.656000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:15.657000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 92
+      DURATION        : 00:20:30.330000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 110.305000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 110.305000, end 495.749000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 495.749000, end 1207.588000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1207.588000, end 1275.657000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16880950
+      DURATION        : 00:21:15.656000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:15.657000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 92
+      DURATION        : 00:20:30.330000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:15.657000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55a81a4e3800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2628697kB audio:115877kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.095469%
+[aac @ 0x55a81a4de880] Qavg: 29812.959
+[aac @ 0x55a81a4e1c40] Qavg: 29812.959
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E16-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E16-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E16-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E16.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E16-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E17 ++++
+
+
+Input file: The King of Queens - S02E17-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E17-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:08:43.000000Z
+  Duration: 00:22:24.94, start: 0.000000, bitrate: 16700 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 457.723000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 457.723000, end 847.707000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 847.707000, end 1297.352000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1297.352000, end 1344.940000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16312794
+      DURATION        : 00:22:24.933000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:24.940000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 92
+      DURATION        : 00:21:22.838000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 457.723000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 457.723000, end 847.707000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 847.707000, end 1297.352000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1297.352000, end 1344.940000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16312794
+      DURATION        : 00:22:24.933000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:24.940000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 92
+      DURATION        : 00:21:22.838000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384005
+      DURATION        : 00:22:24.940000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55f790763800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2678176kB audio:125849kB subtitle:23kB other streams:0kB global headers:1kB muxing overhead: 0.098490%
+[aac @ 0x55f79075e880] Qavg: 11092.670
+[aac @ 0x55f790761c40] Qavg: 11092.670
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E17-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E17-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E17-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E17.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E17-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E18 ++++
+
+
+Input file: The King of Queens - S02E18-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E18-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:10:06.000000Z
+  Duration: 00:22:24.99, start: 0.000000, bitrate: 16617 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 119.409000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 119.409000, end 599.180000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 599.180000, end 1292.406000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1292.406000, end 1344.991000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16233137
+      DURATION        : 00:22:24.758000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:24.991000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 97
+      DURATION        : 00:21:43.064000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 119.409000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 119.409000, end 599.180000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 599.180000, end 1292.406000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1292.406000, end 1344.991000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16233137
+      DURATION        : 00:22:24.758000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:24.991000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 97
+      DURATION        : 00:21:43.064000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:24.991000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x558b99abe5c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+[matroska @ 0x558b99abe5c0] Non-monotonous DTS in output stream 0:0; previous: 1292606, current: 1292440; changing to 1292606. This may result in incorrect timestamps in the output file.
+[matroska @ 0x558b99abe5c0] Non-monotonous DTS in output stream 0:0; previous: 1292606, current: 1292473; changing to 1292606. This may result in incorrect timestamps in the output file.
+[matroska @ 0x558b99abe5c0] Non-monotonous DTS in output stream 0:0; previous: 1292606, current: 1292507; changing to 1292606. This may result in incorrect timestamps in the output file.
+[matroska @ 0x558b99abe5c0] Non-monotonous DTS in output stream 0:0; previous: 1292606, current: 1292540; changing to 1292606. This may result in incorrect timestamps in the output file.
+[matroska @ 0x558b99abe5c0] Non-monotonous DTS in output stream 0:0; previous: 1292606, current: 1292573; changing to 1292606. This may result in incorrect timestamps in the output file.
+video:2664751kB audio:124063kB subtitle:24kB other streams:0kB global headers:1kB muxing overhead: 0.099037%
+[aac @ 0x558b99ab8640] Qavg: 22853.861
+[aac @ 0x558b99ac7c40] Qavg: 22853.861
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E18-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E18-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E18-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E18.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E18-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E19 ++++
+
+
+Input file: The King of Queens - S02E19-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E19-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:11:28.000000Z
+  Duration: 00:22:09.82, start: 0.000000, bitrate: 16750 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 110.375000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 110.375000, end 787.177000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 787.177000, end 1286.041000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1286.041000, end 1329.819000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16362849
+      DURATION        : 00:22:09.817000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:22:09.819000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:27.500000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 110.375000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 110.375000, end 787.177000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 787.177000, end 1286.041000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1286.041000, end 1329.819000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16362849
+      DURATION        : 00:22:09.817000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:22:09.819000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 90
+      DURATION        : 00:21:27.500000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384001
+      DURATION        : 00:22:09.819000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55b297cea5c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2656201kB audio:120313kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.098279%
+[aac @ 0x55b297ce4640] Qavg: 28950.518
+[aac @ 0x55b297cf3c40] Qavg: 28950.518
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E19-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E19-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E19-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E19.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E19-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E20 ++++
+
+
+Input file: The King of Queens - S02E20-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E20-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:12:51.000000Z
+  Duration: 00:22:00.70, start: 0.000000, bitrate: 16733 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 296.823000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 296.823000, end 676.530000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 676.530000, end 1259.705000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1259.705000, end 1320.704000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16345946
+      DURATION        : 00:22:00.699000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:00.704000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 85
+      DURATION        : 00:20:39.766000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 296.823000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 296.823000, end 676.530000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 676.530000, end 1259.705000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1259.705000, end 1320.704000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16345946
+      DURATION        : 00:22:00.699000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:00.704000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 85
+      DURATION        : 00:20:39.766000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:00.704000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55df2b679800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2635263kB audio:122899kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098292%
+[aac @ 0x55df2b674880] Qavg: 10925.893
+[aac @ 0x55df2b677c40] Qavg: 10925.893
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E20-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E20-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E20-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E20.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E20-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E21 ++++
+
+
+Input file: The King of Queens - S02E21-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E21-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:14:13.000000Z
+  Duration: 00:22:25.22, start: 0.000000, bitrate: 16667 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 135.058000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 135.058000, end 768.213000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 768.213000, end 1280.851000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1280.851000, end 1345.220000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16280005
+      DURATION        : 00:22:25.215000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.220000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 84
+      DURATION        : 00:21:45.613000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 135.058000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 135.058000, end 768.213000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 768.213000, end 1280.851000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1280.851000, end 1345.220000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16280005
+      DURATION        : 00:22:25.215000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.220000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 84
+      DURATION        : 00:21:45.613000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:25.220000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55ab528355c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2673353kB audio:125410kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098583%
+[aac @ 0x55ab5282f640] Qavg: 14035.368
+[aac @ 0x55ab5283ec40] Qavg: 14035.368
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E21-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E21-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E21-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E21.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E21-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E22 ++++
+
+
+Input file: The King of Queens - S02E22-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E22-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:15:37.000000Z
+  Duration: 00:21:55.91, start: 0.000000, bitrate: 16789 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 107.005000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 107.005000, end 692.917000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 692.917000, end 1268.864000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1268.864000, end 1315.912000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16402637
+      DURATION        : 00:21:55.904000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:55.912000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 91
+      DURATION        : 00:21:09.024000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 107.005000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 107.005000, end 692.917000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 692.917000, end 1268.864000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1268.864000, end 1315.912000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16402637
+      DURATION        : 00:21:55.904000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:55.912000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 91
+      DURATION        : 00:21:09.024000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:21:55.912000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55dc11908800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2634802kB audio:123316kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.097919%
+[aac @ 0x55dc11905300] Qavg: 12182.051
+[aac @ 0x55dc11914940] Qavg: 12182.051
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E22-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E22-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E22-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E22.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E22-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E23 ++++
+
+
+Input file: The King of Queens - S02E23-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E23-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:16:57.000000Z
+  Duration: 00:21:56.10, start: 0.000000, bitrate: 16833 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 66.695000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 66.695000, end 700.656000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 700.656000, end 1263.176000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1263.176000, end 1316.103000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16446285
+      DURATION        : 00:21:56.095000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:21:56.103000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 100
+      DURATION        : 00:21:17.315000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 66.695000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 66.695000, end 700.656000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 700.656000, end 1263.176000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1263.176000, end 1316.103000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16446285
+      DURATION        : 00:21:56.095000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:21:56.103000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 100
+      DURATION        : 00:21:17.315000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:21:56.103000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x556f129cc800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2642197kB audio:120796kB subtitle:23kB other streams:0kB global headers:1kB muxing overhead: 0.097816%
+[aac @ 0x556f129c9300] Qavg: 24647.516
+[aac @ 0x556f129d8940] Qavg: 24647.516
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E23-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E23-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E23-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E23.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E23-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E24 ++++
+
+
+Input file: The King of Queens - S02E24-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E24-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:18:18.000000Z
+  Duration: 00:22:25.01, start: 0.000000, bitrate: 16645 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 157.224000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 157.224000, end 538.232000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 538.232000, end 1286.413000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1286.413000, end 1345.011000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16260700
+      DURATION        : 00:22:24.805000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.011000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 88
+      DURATION        : 00:21:43.823000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 157.224000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 157.224000, end 538.232000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 538.232000, end 1286.413000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1286.413000, end 1345.011000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16260700
+      DURATION        : 00:22:24.805000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.011000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 88
+      DURATION        : 00:21:43.823000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384003
+      DURATION        : 00:22:25.011000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x55cc602eb5c0] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+[matroska @ 0x55cc602eb5c0] Non-monotonous DTS in output stream 0:0; previous: 1286580, current: 1286447; changing to 1286580. This may result in incorrect timestamps in the output file.
+[matroska @ 0x55cc602eb5c0] Non-monotonous DTS in output stream 0:0; previous: 1286580, current: 1286480; changing to 1286580. This may result in incorrect timestamps in the output file.
+[matroska @ 0x55cc602eb5c0] Non-monotonous DTS in output stream 0:0; previous: 1286580, current: 1286513; changing to 1286580. This may result in incorrect timestamps in the output file.
+[matroska @ 0x55cc602eb5c0] Non-monotonous DTS in output stream 0:0; previous: 1286580, current: 1286547; changing to 1286580. This may result in incorrect timestamps in the output file.
+video:2669369kB audio:122463kB subtitle:22kB other streams:0kB global headers:1kB muxing overhead: 0.098883%
+[aac @ 0x55cc602e5640] Qavg: 26187.471
+[aac @ 0x55cc602f4c40] Qavg: 26187.471
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E24-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E24-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E24-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E24.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E24-AC2 ++++
+
+
+++++ START OF LOG FOR The King of Queens - S02E25 ++++
+
+
+Input file: The King of Queens - S02E25-ORIGINAL has been copied to /home/user/.ffmpeg_tmp/ac2 for processing...
+
+
+Running ffprobe command:
+ffprobe -show_streams -show_entries format:stream -v error -of json /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25.mkv)
+
+
+ffprobe RESULTS OF ++ORIGINAL++ FILE:
+File: The King of Queens - S02E25-ORIGINAL
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: DCA (DTS Coherent Acoustics)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: SubRip subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+
+
+Initiating ffmpeg: 
+
+
+ffmpeg -hide_banner -i /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25.mkv -c:v copy -c:a aac -b:a 384k -map 0 -ac 2 -map 0:1 /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25-AC2.mkv
+Please wait, as the shell will not update until after remux is completed....
+
+
+ffmpeg output:
+Input #0, matroska,webm, from '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-11-26T05:19:43.000000Z
+  Duration: 00:22:20.27, start: 0.000000, bitrate: 16651 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 112.878000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 112.878000, end 682.680000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 682.680000, end 1301.029000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1301.029000, end 1340.273000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc
+    Metadata:
+      BPS             : 16264281
+      DURATION        : 00:22:20.268000000
+  Stream #0:1(eng): Audio: dts (DTS), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:20.273000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      BPS             : 86
+      DURATION        : 00:21:28.300000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+  Stream #0:2 -> #0:2 (subrip (srt) -> ass (ssa))
+  Stream #0:1 -> #0:3 (dts (dca) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, matroska, to '/home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25-AC2.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 112.878000
+      Metadata:
+        title           : Chapter 01
+    Chapter #0:1: start 112.878000, end 682.680000
+      Metadata:
+        title           : Chapter 02
+    Chapter #0:2: start 682.680000, end 1301.029000
+      Metadata:
+        title           : Chapter 03
+    Chapter #0:3: start 1301.029000, end 1340.273000
+      Metadata:
+        title           : Chapter 04
+  Stream #0:0(eng): Video: vc1 (Advanced) (WVC1 / 0x31435657), yuv420p(top first), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 1k tbn, 1k tbc
+    Metadata:
+      BPS             : 16264281
+      DURATION        : 00:22:20.268000000
+  Stream #0:1(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:20.273000000
+      encoder         : Lavc58.134.100 aac
+  Stream #0:2(eng): Subtitle: ass (default)
+    Metadata:
+      BPS             : 86
+      DURATION        : 00:21:28.300000000
+      encoder         : Lavc58.134.100 ssa
+  Stream #0:3(eng): Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp, 384 kb/s (default)
+    Metadata:
+      title           : Stereo
+      BPS             : 384004
+      DURATION        : 00:22:20.273000000
+      encoder         : Lavc58.134.100 aac
+[matroska @ 0x56132850c800] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+video:2660949kB audio:122985kB subtitle:21kB other streams:0kB global headers:1kB muxing overhead: 0.098749%
+[aac @ 0x561328509300] Qavg: 25934.303
+[aac @ 0x561328518940] Qavg: 25934.303
+
+
+ffmpeg conversion successful. Temp output: /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25-AC2.mkv
+Initiating ffprobe on -AC2 file...
+
+
+ffprobe RESULTS OF ++CONVERTED++ FILE:
+File: The King of Queens - S02E25-AC2
+Index: 0
+Codec Name: SMPTE VC-1
+Codec Type: video
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 1
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+Index: 2
+Codec Name: ASS (Advanced SSA) subtitle
+Codec Type: subtitle
+Language: eng
+Audio Channels: null
+Channgel Layout: null
+
+
+Index: 3
+Codec Name: AAC (Advanced Audio Coding)
+Codec Type: audio
+Language: eng
+Audio Channels: 2
+Channgel Layout: stereo
+
+
+
+
+Triggering move command to transfer The King of Queens - S02E25-AC2 to target directory... please wait, this might take a moment depending on file size...
+
+
+Moved /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25-AC2.mkv to /home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E25-AC2.mkv
+
+
+Deleted /home/user/.ffmpeg_tmp/ac2/The King of Queens - S02E25.mkv
+
+
+++++ END OF LOG FOR The King of Queens - S02E25-AC2 ++++
+
+Excluded files (already listed as -AC2 in filename):
+/home/user/smb/series/TV SERIES/King of Queens, The (1998-2007) (US)/S02/The King of Queens - S02E01-AC2.mkv
+
+Conversion complete. Log file: /home/user/.ffmpeg_tmp/ac2/AC2_log_2023-11-26_17:40.txt
+
+Full ffprobe output for each -AC2 file saved to: /home/user/.ffmpeg_tmp/ac2/AC2_ffprobe_2023-11-26_17:40.json
