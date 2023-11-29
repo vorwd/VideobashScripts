@@ -1,18 +1,3 @@
-# Tips to acheiving successful outcomes:
-I found it works best to complete the mkvMerge-Eng-Only.sh script on the directory/file prior to calling one of the ffmpeg variants.  This is due to the ffmpeg options/arguments I've chosen to call in the script.  You may find better suited options to feed into ffmpeg which would prevent this sort of issue from occuring.  I will work to update the chosen options, while still acheivng a successful outcome, if it becomes a hassle for me to trigger the scripts in this sequence.**
-  >  Error initializing output stream 0:3 -- Subtitle encoding currently only possible from text to text or bitmap to bitmap
-<br>
-
-_What's strange about this error, is that my $map_audio_args should be excluding subtitles all together and the script should only be working on audio streams -- I did fiddle around with the **jq** outputs of ffprobe-original, which feeds into the $map_audio_args, but didn't resolve it yet_
-  
-  > map_audio_args=() <br>
-      for index in $eng_audio_streams; do <br>
-        lang=$(echo "$ffprobe_output" | jq -r ".streams[] | select(.index == $index and .codec_type == \"audio\") | .tags.language") <br>
-        if [ "$lang" == "eng" ]; then <br>
-          map_audio_args+=("-map" "0:$index") <br>
-        fi <br>
-      done <br>
-<br>
 
 # Overview of **ffmpeg_Eng-Audio-to-ACC-2CH.sh**
   - Applies to .mkv and .mp4 files (could be updated to action against any video format that is supported by **ffmpeg**, but I only use it for these two formats -- feel free to update)
@@ -41,15 +26,6 @@ _What's strange about this error, is that my $map_audio_args should be excluding
 <br>
 <br>
 
-# Overview of **ffmpeg_Eng-Audio-to-ACC-2CH_MV.sh**
-  - Same base functionaly as the original **ffmpeg_Eng-Audio-to-ACC-2CH.sh**
-  - In addition, it introduces a new variable **temp_input_file**, as well as a new cp and rm command
-    -   Utilises the cp command to copy the "$input_file" into the temporary directory, creating the **temp_input_file**, before the loop starts
-    -   After a successful conversion (as well as the existing mv command (among others) to move the $temp_output_file to the $target_directory), employs the rm command to delete the **temp_input_file** from the temporary directory
-  -   The addition of the cp and rm commands promote successful outcomes on larger files by aiding in the prevention hangs on the **ffmpeg** converstion due to network latency or dropouts.
-<br>
-<br>
-
 # Overview of **mkvMerge-Eng-Only.sh**
   - Applies to .mkv files ONLY (could be updated to action against any video format that is supported by **mkvtoolnix** -- feel free to update as you require)
   - Creates a verbose (very/overkill) and timestamped log file of the end-to-end process and produces a timestamped .json file of the **ffprobe** completed after the multiplex is completed
@@ -64,7 +40,6 @@ _What's strange about this error, is that my $map_audio_args should be excluding
 6. Outputs to the shell, the list of filtered (to-be converted) files (and those listed as excluded) and askes the user to confirm they want to continue (y/n)
 7. **Starts Loop** on filtered file list and runs the following: <br>
   7a. Initiates **mkvmerge** (snip 1) and feeds in the input_args (snip 2). <br>
-> 
     Snip 1:
   >      mkvmerge -o "$temp_output_file" "${mkvmerge_input_args[@]}" 2>&1 | grep -v "Progress:"
     Snip 2:
